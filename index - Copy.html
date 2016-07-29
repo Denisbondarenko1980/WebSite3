@@ -1,0 +1,141 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+    <body>
+    
+    
+    <!-- REGISTRATION FORM FOR POPUP BOX -->
+    <div class="modal fade bs-example-modal-sm" id="stamp-modal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="vertical-registration-form">
+                    <h4 class="dark-text form-heading">Get 1 Month FREE Trial Now</h4>
+                    <form class="registration-form" id="contact-form">
+                        <input type="text" id="cf-name" name="name" class="form-control input-box" placeholder="Name">
+                        <input type="email" id="cf-email" name="email" class="form-control input-box" placeholder="Email">
+                        <input type="text" id="cf-subject" name="subject" class="form-control input-box" placeholder="Subject">
+                        <textarea name="message" id="cf-message" class="form-control textarea-box" rows="4" placeholder="Message"></textarea>
+                        <button class="btn btn-primary standard-button">Get Started</button>
+                    </form>
+                    <p class="email-success dark-text">
+                        <span class="icon-check-alt2 colored-text"></span>Email sent seuccessfully
+                    </p>
+                    <p class="email-error dark-text">
+                        <span class="icon-close-alt2"></span>Error! Please check all fields filled correctly
+                    </p>
+                    <!-- MAILCHIMP ALERTS 
+			        <p class="mailchimp-success dark-text"><span class="icon-check-alt2 colored-text"></span>We sent the confirmation to your email</p>
+			        <p class="mailchimp-error dark-text"><span class="icon-close-alt2"></span>Error! Please check all fields filled correctly</p>
+			        -->
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- =========================
+     SECTION: CONTACT INFO  
+    ============================== -->
+    <div class="contact-info white-bg">
+        <div class="container">
+            
+            <!-- CONTACT INFO -->
+            <div class="row contact-links">
+                
+                <div class="col-sm-4">
+                    <div class="icon-container">
+                        <span class="icon-basic-mail colored-text"></span>
+                    </div>
+                    <a href="mailto:hey@designlab.co" class="strong">hey@designlab.co</a>
+                </div>
+                
+                <div class="col-sm-4">
+                    <div class="icon-container">
+                        <span class="icon-basic-geolocalize-01 colored-text"></span>
+                    </div>
+                    <a href="" class="strong">Glen Road, E13 8 London, UK</a>
+                </div>
+                
+                <div class="col-sm-4">
+                    <div class="icon-container">
+                        <span class="icon-basic-tablet colored-text"></span>
+                    </div>
+                    <a href="tel:44-12-3456-7890" class="strong">+44-12-3456-7890</a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <!-- =========================
+     GOOGEL MAP 
+    ============================== -->
+    <div id="container-fluid">
+        <div id="cd-google-map">
+            <div id="google-container">
+            </div>
+            <address class="color-bg">Glen Road, E13 8 London, UK</address>
+        </div>
+    </div>
+    
+    <!-- FOOTER -->
+    <footer class="footer grey-bg">
+        ©2014 Stamp LLC. All Rights Reserved
+        
+        <!-- OPTIONAL FOOTER LINKS -->
+        <ul class="footer-links small-text">
+            <li><a href="" class="dark-text">About</a>
+            </li>
+            <li><a href="" class="dark-text">Terms</a>
+            </li>
+            <li><a href="" class="dark-text">Privacy</a>
+            </li>
+        </ul>
+        
+        <!-- SOCIAL ICONS -->
+        <ul class="social-icons">
+            <li><a href=""><span class="icon-social-facebook transparent-text-dark"></span></a>
+            </li>
+            <li><a href=""><span class="icon-social-twitter transparent-text-dark"></span></a>
+            </li>
+            <li><a href=""><span class="icon-social-pinterest transparent-text-dark"></span></a>
+            </li>
+            <li><a href=""><span class="icon-social-googleplus transparent-text-dark"></span></a>
+            </li>
+            <li><a href=""><span class="icon-social-dribbble transparent-text-dark"></span></a>
+            </li>
+        </ul>
+        
+    </footer>
+    
+    
+    <!-- =========================
+     SCRIPTS   
+    ============================== -->
+    <script src="js/jquery.min.js"></script>
+    <script>
+        /* PRE LOADER */
+        jQuery(window).load(function () {
+            "use strict";
+            jQuery(".status").fadeOut();
+            jQuery(".preloader").delay(1000).fadeOut("slow");
+        })
+    </script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nav.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/nivo-lightbox.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/retina.min.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    
+    <!-- GOGLE MAP -->
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    
+    <!-- CUSTOM JS  -->
+    <script src="js/custom.js"></script>
+    
+</body>
+
+</html>
